@@ -1,5 +1,6 @@
-body {
-    margin: auto;
+main {
+    min-width: 600px;
+    max-width: 1080px;
 }
 
 @media screen and (max-width: 600px) {
