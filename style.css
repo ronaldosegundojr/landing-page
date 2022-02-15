@@ -9,6 +9,9 @@
     top: -44px; 
     visibility: visible; 
     background-image: linear-gradient(to bottom, #f3ab04,#dd9d09,#ebaf23, #221802); 
+    display: -webkit-flex;
+    display: -ms-flexbox;
+           display: flex;
 }
 
 #header_name{
@@ -71,7 +74,11 @@
     left: -12px; 
     top: 213px; 
     visibility: visible; 
-    background-color: #1C1C1C
+    background-color: #1C1C1C;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+           display: flex;
+
 }
 
 #body_title_about_me{
