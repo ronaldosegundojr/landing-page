@@ -1,96 +1,98 @@
 /* Head Style*/
-*{
-    height: 100%
+
+* {
+    height: 100%;
+    width: 100%;
 }
 
-#header_background{
+#header_background {
     height: 100%;
     position: absolute;
-    width: 1913px; 
-    height: 258px; 
-    z-index: 1; 
-    left: -6px; 
-    top: -44px; 
-    visibility: visible; 
-    background-image: linear-gradient(to bottom, #f3ab04,#dd9d09,#ebaf23, #221802); 
+    width: 1913px;
+    height: 258px;
+    z-index: 1;
+    left: -6px;
+    top: -44px;
+    visibility: visible;
+    background-image: linear-gradient(to bottom, #f3ab04, #dd9d09, #ebaf23, #221802);
     display: -webkit-flex;
     display: -ms-flexbox;
-           display: flex;
+    display: flex;
 }
 
-#header_name{
-    position: absolute; 
+#header_name {
+    position: absolute;
     font-family: Arial;
     color: #1C1C1C;
     font-size: 16;
     text-align: left;
     line-height: 5px;
-    width: 615px; 
-    height: 51px; 
-    z-index: 2; 
-    left: 251px; 
+    width: 615px;
+    height: 51px;
+    z-index: 2;
+    left: 251px;
     top: 44px;
 }
 
-#header_data_analyst{
-    position: absolute; 
+#header_data_analyst {
+    position: absolute;
     font-family: Arial;
     color: #1C1C1C;
     font-size: 20;
     text-align: left;
     line-height: 5px;
-    width: 313px; 
-    height: 29px; 
-    z-index: 3; 
-    left: 252px; 
+    width: 313px;
+    height: 29px;
+    z-index: 3;
+    left: 252px;
     top: 93px;
 }
 
-#header_bottom_bar{
-    position: absolute; 
-    width: 430px; 
-    height: 32px; 
-    z-index: 4; 
-    left: 1145px; 
+#header_bottom_bar {
+    position: absolute;
+    width: 430px;
+    height: 32px;
+    z-index: 4;
+    left: 1145px;
     top: 74px;
 }
 
-#header_city{
-    position: absolute; 
-    width: 163px; 
-    height: 22px; 
-    z-index: 5; 
+#header_city {
+    position: absolute;
+    width: 163px;
+    height: 22px;
+    z-index: 5;
     font-family: Arial;
-    left: 251px; 
+    left: 251px;
     top: 128px;
     color: #1C1C1C;
     font-size: 16pt;
     line-height: 1px;
 }
 
+
 /* body Style*/
 
-#body_theme{
-    position: absolute; 
-    width: 1918px; 
-    height: 1002px; 
-    z-index: 1; 
-    left: -12px; 
-    top: 213px; 
-    visibility: visible; 
+#body_theme {
+    position: absolute;
+    width: 1918px;
+    height: 1002px;
+    z-index: 1;
+    left: -12px;
+    top: 213px;
+    visibility: visible;
     background-color: #1C1C1C;
     display: -webkit-flex;
     display: -ms-flexbox;
-           display: flex;   
-
+    display: flex;
 }
 
-#body_title_about_me{
-    position: absolute; 
-    width: 143px; 
-    height: 39px; 
-    z-index: 6; 
-    left: 769px; 
+#body_title_about_me {
+    position: absolute;
+    width: 143px;
+    height: 39px;
+    z-index: 6;
+    left: 769px;
     top: 248px;
     font-weight: 700;
     font-size: 16pt;
@@ -99,133 +101,129 @@
     line-height: 5px;
 }
 
-#body_title_education{
-    position: absolute; 
-    width: 164px; 
-    height: 120px; 
-    z-index: 3; 
-    left: 779px; 
+#body_title_education {
+    position: absolute;
+    width: 164px;
+    height: 120px;
+    z-index: 3;
+    left: 779px;
     top: 327px;
     font-size: 16pt;
     font-family: Arial;
-    font-weight:700;
+    font-weight: 700;
     color: #f3ab04;
     line-height: 5px;
 }
 
-#body_text_about_me{
-    position: absolute; 
-    width: 367px; 
-    height: 254px; 
-    z-index: 2; 
-    left: 780px; 
+#body_text_about_me {
+    position: absolute;
+    width: 367px;
+    height: 254px;
+    z-index: 2;
+    left: 780px;
     top: 82px;
     margin-bottom: 0;
     line-height: 10px;
-
 }
 
-#body_bar_education{
-    position: absolute; 
-    width: 125px; 
-    height: 54px; 
-    z-index: 6; 
-    left: 779px; 
+#body_bar_education {
+    position: absolute;
+    width: 125px;
+    height: 54px;
+    z-index: 6;
+    left: 779px;
     top: 348px;
-
 }
 
-#body_text_education{
-    position: absolute; 
-    width: 274px; 
-    height: 127px; 
-    z-index: 7; 
-    left: 777px; 
+#body_text_education {
+    position: absolute;
+    width: 274px;
+    height: 127px;
+    z-index: 7;
+    left: 777px;
     top: 361px;
     margin-bottom: 0;
     line-height: 10px;
-
 }
 
-#body_title_experience{
-    position: absolute; 
-    width: 176px; 
-    height: 57px; 
-    z-index: 8; 
-    left: 776px; 
+#body_title_experience {
+    position: absolute;
+    width: 176px;
+    height: 57px;
+    z-index: 8;
+    left: 776px;
     top: 487px;
     font-size: 16pt;
     font-family: Arial;
-    font-weight:700;
+    font-weight: 700;
     color: #f3ab04;
     line-height: 5px;
 }
 
-#body_text_experience{
-    position: absolute; 
-    width: 329px; 
-    height: 127px; 
-    z-index: 1; 
-    left: 0px; 
+#body_text_experience {
+    position: absolute;
+    width: 329px;
+    height: 127px;
+    z-index: 1;
+    left: 0px;
     top: 39px;
     margin-bottom: 0;
     margin-bottom: 0;
     line-height: 10px;
-
 }
 
-#body_bar_experience{
-    position: absolute; 
-    width: 125px; 
-    height: 54px; 
-    z-index: 6; 
-    left: 776px; 
+#body_bar_experience {
+    position: absolute;
+    width: 125px;
+    height: 54px;
+    z-index: 6;
+    left: 776px;
     top: 523px;
     color: #f3ab04;
 }
 
-#body_bottom_talk_theme{
-    position: absolute; 
-    width: 157px; 
-    height: 46px; 
-    z-index: 10; 
-    left: 430px; 
+#body_bottom_talk_theme {
+    position: absolute;
+    width: 157px;
+    height: 46px;
+    z-index: 10;
+    left: 430px;
     top: 473px;
 }
 
-#body_bottom_talk{
-    position: absolute; 
-    width: 233px; 
-    height: 36px; 
-    z-index: 9; 
-    left: 388px; 
+#body_bottom_talk {
+    position: absolute;
+    width: 233px;
+    height: 36px;
+    z-index: 9;
+    left: 388px;
     top: 466px;
 }
 
-#body_photo_index{
+#body_photo_index {
     position: absolute;
-    width: 406px; 
-    height: 408px; 
-    z-index: 1; 
-    left: 330px; 
+    width: 406px;
+    height: 408px;
+    z-index: 1;
+    left: 330px;
     top: 43px;
 }
 
-#body_bar_about_me{
-    position: absolute; 
-    width: 125px; 
-    height: 29px; 
-    z-index: 6; 
-    left: 770px; 
+#body_bar_about_me {
+    position: absolute;
+    width: 125px;
+    height: 29px;
+    z-index: 6;
+    left: 770px;
     top: 285px;
     color: #f3ab04;
 }
 
+
 /* Bottoms Style*/
 
-#bottom_home{
-   font: Arial;
-   color: #000000; 
-   border-bottom-color: #000000
-
+#bottom_home {
+    font: Arial;
+    color: #000000;
+    border-bottom-color: #000000
 }
